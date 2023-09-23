@@ -6,7 +6,7 @@ def primes(number_of_primes):
         raise ValueError("The number of primes should be 1 or greater")
     list = []
     y = 1
-    while len(list) < 10:
+    while len(list) < number_of_primes:
         y +=1
         if is_prime(y,list):
             list.append(y)
